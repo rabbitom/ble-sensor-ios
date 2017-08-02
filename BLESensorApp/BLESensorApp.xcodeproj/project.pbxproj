@@ -449,7 +449,7 @@
 					E2CA7EAE1D62FF5E00CA3156 = {
 						CreatedOnToolsVersion = 7.3.1;
 						DevelopmentTeam = D9HVCB63EH;
-						ProvisioningStyle = Automatic;
+						ProvisioningStyle = Manual;
 					};
 				};
 			};
@@ -678,9 +678,10 @@
 				INFOPLIST_FILE = BLESensor/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = yunjia.BLESensor;
+				PRODUCT_BUNDLE_IDENTIFIER = erabbit.BLESensor;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				PROVISIONING_PROFILE = "";
+				PROVISIONING_PROFILE = "a9f403ff-10b2-4c7f-86d7-af898c5e2e73";
+				PROVISIONING_PROFILE_SPECIFIER = BLESensorDevelopment;
 			};
 			name = Debug;
 		};
@@ -689,7 +690,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution";
 				DEVELOPMENT_TEAM = D9HVCB63EH;
 				ENABLE_BITCODE = NO;
 				FRAMEWORK_SEARCH_PATHS = (
@@ -702,9 +703,10 @@
 				INFOPLIST_FILE = BLESensor/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = yunjia.BLESensor;
+				PRODUCT_BUNDLE_IDENTIFIER = erabbit.BLESensor;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				PROVISIONING_PROFILE = "";
+				PROVISIONING_PROFILE = "84a81a7a-7123-434b-aeb9-b583792bc0de";
+				PROVISIONING_PROFILE_SPECIFIER = BLESensorAdHocDistribution;
 			};
 			name = Release;
 		};
