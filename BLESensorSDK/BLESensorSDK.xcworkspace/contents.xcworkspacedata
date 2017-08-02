@@ -7,7 +7,4 @@
    <FileRef
       location = "group:../BLESensorApp/BLESensorApp.xcodeproj">
    </FileRef>
-   <FileRef
-      location = "group:../BLESensorTest/BLESensorTest.xcodeproj">
-   </FileRef>
 </Workspace>
