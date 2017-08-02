@@ -48,11 +48,11 @@
 		E22EFD0C1D717BCF00C7EC91 /* DeviceDataViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E22EFD0B1D717BCF00C7EC91 /* DeviceDataViewController.m */; };
 		E247DCED1DCAF16A00F3808F /* BLESensorSDK.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E247DCEC1DCAF16A00F3808F /* BLESensorSDK.framework */; };
 		E247DCF01DCB1C5C00F3808F /* DeviceFeaturesViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E247DCEF1DCB1C5C00F3808F /* DeviceFeaturesViewController.m */; };
+		E27C69731F32069700E25A42 /* NinevehGL.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E27C69721F32069700E25A42 /* NinevehGL.framework */; };
 		E282BC4C1D74F016000DC84A /* ChartView.m in Sources */ = {isa = PBXBuildFile; fileRef = E282BC4B1D74F016000DC84A /* ChartView.m */; };
 		E29332381DD76BA500F9550B /* Keychain.mtl in Resources */ = {isa = PBXBuildFile; fileRef = E29332361DD76BA500F9550B /* Keychain.mtl */; };
 		E29332391DD76BA500F9550B /* Keychain.obj in Resources */ = {isa = PBXBuildFile; fileRef = E29332371DD76BA500F9550B /* Keychain.obj */; };
 		E293323C1DD7739D00F9550B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E293323A1DD7739D00F9550B /* LaunchScreen.storyboard */; };
-		E29332441DD778F000F9550B /* NinevehGL.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E29332431DD778F000F9550B /* NinevehGL.framework */; };
 		E2975F441DAAD82C00361521 /* OpenGLES.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E2975F431DAAD82C00361521 /* OpenGLES.framework */; };
 		E2975F461DAAD83100361521 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E2975F451DAAD83100361521 /* QuartzCore.framework */; };
 		E2975F4B1DAAE2BC00361521 /* Device3DViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E2975F4A1DAAE2BC00361521 /* Device3DViewController.m */; };
@@ -65,6 +65,16 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
+		E27C69701F3203E700E25A42 /* Embed PlugIns */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+			);
+			name = "Embed PlugIns";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		E2B1355E1DCA05D40082D29A /* Embed Frameworks */ = {
 			isa = PBXCopyFilesBuildPhase;
 			buildActionMask = 2147483647;
@@ -151,12 +161,12 @@
 		E247DCEE1DCB1C5C00F3808F /* DeviceFeaturesViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DeviceFeaturesViewController.h; sourceTree = "<group>"; };
 		E247DCEF1DCB1C5C00F3808F /* DeviceFeaturesViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DeviceFeaturesViewController.m; sourceTree = "<group>"; };
 		E247DCF11DCB5F1700F3808F /* DeviceDetailController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DeviceDetailController.h; sourceTree = "<group>"; };
+		E27C69721F32069700E25A42 /* NinevehGL.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = NinevehGL.framework; sourceTree = "<group>"; };
 		E282BC4A1D74F016000DC84A /* ChartView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ChartView.h; sourceTree = "<group>"; };
 		E282BC4B1D74F016000DC84A /* ChartView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ChartView.m; sourceTree = "<group>"; };
 		E29332361DD76BA500F9550B /* Keychain.mtl */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Keychain.mtl; sourceTree = "<group>"; };
 		E29332371DD76BA500F9550B /* Keychain.obj */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Keychain.obj; sourceTree = "<group>"; };
 		E293323B1DD7739D00F9550B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
-		E29332431DD778F000F9550B /* NinevehGL.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = NinevehGL.framework; sourceTree = "<group>"; };
 		E2975F431DAAD82C00361521 /* OpenGLES.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = OpenGLES.framework; path = System/Library/Frameworks/OpenGLES.framework; sourceTree = SDKROOT; };
 		E2975F451DAAD83100361521 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
 		E2975F491DAAE2BC00361521 /* Device3DViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Device3DViewController.h; sourceTree = "<group>"; };
@@ -179,11 +189,11 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E27C69731F32069700E25A42 /* NinevehGL.framework in Frameworks */,
 				148586631EFA7A7100F039FB /* CoreData.framework in Frameworks */,
 				E247DCED1DCAF16A00F3808F /* BLESensorSDK.framework in Frameworks */,
 				E2975F461DAAD83100361521 /* QuartzCore.framework in Frameworks */,
 				E2975F441DAAD82C00361521 /* OpenGLES.framework in Frameworks */,
-				E29332441DD778F000F9550B /* NinevehGL.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -343,8 +353,8 @@
 		E2975F421DAAD82C00361521 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				E27C69721F32069700E25A42 /* NinevehGL.framework */,
 				148586621EFA7A7100F039FB /* CoreData.framework */,
-				E29332431DD778F000F9550B /* NinevehGL.framework */,
 				E247DCEC1DCAF16A00F3808F /* BLESensorSDK.framework */,
 				E2975F451DAAD83100361521 /* QuartzCore.framework */,
 				E2975F431DAAD82C00361521 /* OpenGLES.framework */,
@@ -427,6 +437,7 @@
 				E2CA7EAC1D62FF5E00CA3156 /* Frameworks */,
 				E2CA7EAD1D62FF5E00CA3156 /* Resources */,
 				E2B1355E1DCA05D40082D29A /* Embed Frameworks */,
+				E27C69701F3203E700E25A42 /* Embed PlugIns */,
 			);
 			buildRules = (
 			);

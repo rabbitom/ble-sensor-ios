@@ -5,6 +5,9 @@
       location = "container:BLESensorSDK.xcodeproj">
    </FileRef>
    <FileRef
+      location = "group:../NinevehGL/NinevehGL.xcodeproj">
+   </FileRef>
+   <FileRef
       location = "group:../BLESensorApp/BLESensorApp.xcodeproj">
    </FileRef>
 </Workspace>
