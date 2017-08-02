@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<model type="com.apple.IDECoreDataModeler.DataModel" documentVersion="1.0" lastSavedToolsVersion="11759" systemVersion="16C67" minimumToolsVersion="Automatic" sourceLanguage="Swift" userDefinedModelVersionIdentifier="">
+    <entity name="BLEData" representedClassName="BLEData" syncable="YES" codeGenerationType="class">
+        <attribute name="accelerometer" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="barometer" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="gyroscope" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="humidity" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="magnetometer" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="sfl" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="temperature" optional="YES" attributeType="String" syncable="YES"/>
+        <relationship name="relationship" optional="YES" maxCount="1" deletionRule="Nullify" destinationEntity="Device" syncable="YES"/>
+    </entity>
+    <entity name="Device" representedClassName="Device" syncable="YES" codeGenerationType="class">
+        <attribute name="deviceId" optional="YES" attributeType="String" syncable="YES"/>
+    </entity>
+    <elements>
+        <element name="Device" positionX="-63" positionY="-18" width="128" height="60"/>
+        <element name="BLEData" positionX="-54" positionY="-9" width="128" height="165"/>
+    </elements>
+</model>

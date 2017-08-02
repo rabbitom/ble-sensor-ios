@@ -1,0 +1,38 @@
+# 
+# Wavefront material file
+# Converted by the DEEP Exploration  Deep Exploration 6.0 x64 6.0.1.6053 Release
+# Right Hemisphere, LTD
+# http://www.righthemisphere.com/
+# 
+
+newmtl material1
+Ka 0.3 0.3 0.3
+Kd 0.7 0.7 0.7
+Ks 1 1 1
+illum 2
+Ns 50
+map_Kd IoT_Sensor_Development.png
+map_bump 
+bump 
+map_opacity 
+map_d 
+refl 
+map_kS 
+map_kA 
+map_Ns 
+
+newmtl material
+Ka 0.3 0.3 0.3
+Kd 0.7 0.7 0.7
+Ks 1 1 1
+illum 2
+Ns 50
+map_Kd Dialog_Semiconductor.png
+map_bump 
+bump 
+map_opacity 
+map_d 
+refl 
+map_kS 
+map_kA 
+map_Ns 

@@ -1,0 +1,372 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		E22FCEB61DC9EDD3008161B8 /* BLESensorSDK.h in Headers */ = {isa = PBXBuildFile; fileRef = E22FCEB41DC9EDD3008161B8 /* BLESensorSDK.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		E22FCEC71DC9EFA3008161B8 /* BLEDevice.h in Headers */ = {isa = PBXBuildFile; fileRef = E22FCEC51DC9EFA3008161B8 /* BLEDevice.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		E22FCEC81DC9EFA3008161B8 /* BLEDevice.m in Sources */ = {isa = PBXBuildFile; fileRef = E22FCEC61DC9EFA3008161B8 /* BLEDevice.m */; };
+		E22FCED11DC9EFB9008161B8 /* BLEDevicesManager.h in Headers */ = {isa = PBXBuildFile; fileRef = E22FCEC91DC9EFB9008161B8 /* BLEDevicesManager.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		E22FCED21DC9EFB9008161B8 /* BLEDevicesManager.m in Sources */ = {isa = PBXBuildFile; fileRef = E22FCECA1DC9EFB9008161B8 /* BLEDevicesManager.m */; };
+		E22FCED31DC9EFB9008161B8 /* BLEUtility.h in Headers */ = {isa = PBXBuildFile; fileRef = E22FCECB1DC9EFB9008161B8 /* BLEUtility.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		E22FCED41DC9EFB9008161B8 /* BLEUtility.m in Sources */ = {isa = PBXBuildFile; fileRef = E22FCECC1DC9EFB9008161B8 /* BLEUtility.m */; };
+		E22FCED51DC9EFB9008161B8 /* BLEIoTSensor.h in Headers */ = {isa = PBXBuildFile; fileRef = E22FCECD1DC9EFB9008161B8 /* BLEIoTSensor.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		E22FCED61DC9EFB9008161B8 /* BLEIoTSensor.m in Sources */ = {isa = PBXBuildFile; fileRef = E22FCECE1DC9EFB9008161B8 /* BLEIoTSensor.m */; };
+		E22FCED71DC9EFB9008161B8 /* SensorFeature.h in Headers */ = {isa = PBXBuildFile; fileRef = E22FCECF1DC9EFB9008161B8 /* SensorFeature.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		E22FCED81DC9EFB9008161B8 /* SensorFeature.m in Sources */ = {isa = PBXBuildFile; fileRef = E22FCED01DC9EFB9008161B8 /* SensorFeature.m */; };
+		E22FCEDB1DC9EFCF008161B8 /* CoolUtility.h in Headers */ = {isa = PBXBuildFile; fileRef = E22FCED91DC9EFCF008161B8 /* CoolUtility.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		E22FCEDC1DC9EFCF008161B8 /* CoolUtility.m in Sources */ = {isa = PBXBuildFile; fileRef = E22FCEDA1DC9EFCF008161B8 /* CoolUtility.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		E22FCEB11DC9EDD3008161B8 /* BLESensorSDK.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = BLESensorSDK.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		E22FCEB41DC9EDD3008161B8 /* BLESensorSDK.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BLESensorSDK.h; sourceTree = "<group>"; };
+		E22FCEB51DC9EDD3008161B8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E22FCEC51DC9EFA3008161B8 /* BLEDevice.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BLEDevice.h; sourceTree = "<group>"; };
+		E22FCEC61DC9EFA3008161B8 /* BLEDevice.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BLEDevice.m; sourceTree = "<group>"; };
+		E22FCEC91DC9EFB9008161B8 /* BLEDevicesManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BLEDevicesManager.h; sourceTree = "<group>"; };
+		E22FCECA1DC9EFB9008161B8 /* BLEDevicesManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BLEDevicesManager.m; sourceTree = "<group>"; };
+		E22FCECB1DC9EFB9008161B8 /* BLEUtility.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BLEUtility.h; sourceTree = "<group>"; };
+		E22FCECC1DC9EFB9008161B8 /* BLEUtility.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BLEUtility.m; sourceTree = "<group>"; };
+		E22FCECD1DC9EFB9008161B8 /* BLEIoTSensor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BLEIoTSensor.h; sourceTree = "<group>"; };
+		E22FCECE1DC9EFB9008161B8 /* BLEIoTSensor.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BLEIoTSensor.m; sourceTree = "<group>"; };
+		E22FCECF1DC9EFB9008161B8 /* SensorFeature.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SensorFeature.h; sourceTree = "<group>"; };
+		E22FCED01DC9EFB9008161B8 /* SensorFeature.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SensorFeature.m; sourceTree = "<group>"; };
+		E22FCED91DC9EFCF008161B8 /* CoolUtility.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CoolUtility.h; sourceTree = "<group>"; };
+		E22FCEDA1DC9EFCF008161B8 /* CoolUtility.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CoolUtility.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		E22FCEAD1DC9EDD3008161B8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		E22FCEA71DC9EDD3008161B8 = {
+			isa = PBXGroup;
+			children = (
+				E22FCEB31DC9EDD3008161B8 /* BLESensorSDK */,
+				E22FCEB21DC9EDD3008161B8 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		E22FCEB21DC9EDD3008161B8 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				E22FCEB11DC9EDD3008161B8 /* BLESensorSDK.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		E22FCEB31DC9EDD3008161B8 /* BLESensorSDK */ = {
+			isa = PBXGroup;
+			children = (
+				E22FCEDD1DC9EFDF008161B8 /* Common */,
+				E22FCEDE1DC9EFF8008161B8 /* BLE */,
+				E22FCEDF1DC9F003008161B8 /* IoTSensor */,
+				E22FCEB41DC9EDD3008161B8 /* BLESensorSDK.h */,
+				E22FCEB51DC9EDD3008161B8 /* Info.plist */,
+			);
+			path = BLESensorSDK;
+			sourceTree = "<group>";
+		};
+		E22FCEDD1DC9EFDF008161B8 /* Common */ = {
+			isa = PBXGroup;
+			children = (
+				E22FCED91DC9EFCF008161B8 /* CoolUtility.h */,
+				E22FCEDA1DC9EFCF008161B8 /* CoolUtility.m */,
+			);
+			name = Common;
+			sourceTree = "<group>";
+		};
+		E22FCEDE1DC9EFF8008161B8 /* BLE */ = {
+			isa = PBXGroup;
+			children = (
+				E22FCEC51DC9EFA3008161B8 /* BLEDevice.h */,
+				E22FCEC61DC9EFA3008161B8 /* BLEDevice.m */,
+				E22FCEC91DC9EFB9008161B8 /* BLEDevicesManager.h */,
+				E22FCECA1DC9EFB9008161B8 /* BLEDevicesManager.m */,
+				E22FCECB1DC9EFB9008161B8 /* BLEUtility.h */,
+				E22FCECC1DC9EFB9008161B8 /* BLEUtility.m */,
+			);
+			name = BLE;
+			sourceTree = "<group>";
+		};
+		E22FCEDF1DC9F003008161B8 /* IoTSensor */ = {
+			isa = PBXGroup;
+			children = (
+				E22FCECD1DC9EFB9008161B8 /* BLEIoTSensor.h */,
+				E22FCECE1DC9EFB9008161B8 /* BLEIoTSensor.m */,
+				E22FCECF1DC9EFB9008161B8 /* SensorFeature.h */,
+				E22FCED01DC9EFB9008161B8 /* SensorFeature.m */,
+			);
+			name = IoTSensor;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		E22FCEAE1DC9EDD3008161B8 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E22FCED11DC9EFB9008161B8 /* BLEDevicesManager.h in Headers */,
+				E22FCED51DC9EFB9008161B8 /* BLEIoTSensor.h in Headers */,
+				E22FCED31DC9EFB9008161B8 /* BLEUtility.h in Headers */,
+				E22FCEDB1DC9EFCF008161B8 /* CoolUtility.h in Headers */,
+				E22FCED71DC9EFB9008161B8 /* SensorFeature.h in Headers */,
+				E22FCEC71DC9EFA3008161B8 /* BLEDevice.h in Headers */,
+				E22FCEB61DC9EDD3008161B8 /* BLESensorSDK.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		E22FCEB01DC9EDD3008161B8 /* BLESensorSDK */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E22FCEB91DC9EDD3008161B8 /* Build configuration list for PBXNativeTarget "BLESensorSDK" */;
+			buildPhases = (
+				E22FCEAC1DC9EDD3008161B8 /* Sources */,
+				E22FCEAD1DC9EDD3008161B8 /* Frameworks */,
+				E22FCEAE1DC9EDD3008161B8 /* Headers */,
+				E22FCEAF1DC9EDD3008161B8 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = BLESensorSDK;
+			productName = BLESensorSDK;
+			productReference = E22FCEB11DC9EDD3008161B8 /* BLESensorSDK.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		E22FCEA81DC9EDD3008161B8 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0800;
+				ORGANIZATIONNAME = CoolTools;
+				TargetAttributes = {
+					E22FCEB01DC9EDD3008161B8 = {
+						CreatedOnToolsVersion = 8.0;
+						DevelopmentTeam = D9HVCB63EH;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = E22FCEAB1DC9EDD3008161B8 /* Build configuration list for PBXProject "BLESensorSDK" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = E22FCEA71DC9EDD3008161B8;
+			productRefGroup = E22FCEB21DC9EDD3008161B8 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				E22FCEB01DC9EDD3008161B8 /* BLESensorSDK */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		E22FCEAF1DC9EDD3008161B8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		E22FCEAC1DC9EDD3008161B8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E22FCED41DC9EFB9008161B8 /* BLEUtility.m in Sources */,
+				E22FCEDC1DC9EFCF008161B8 /* CoolUtility.m in Sources */,
+				E22FCED81DC9EFB9008161B8 /* SensorFeature.m in Sources */,
+				E22FCEC81DC9EFA3008161B8 /* BLEDevice.m in Sources */,
+				E22FCED61DC9EFB9008161B8 /* BLEIoTSensor.m in Sources */,
+				E22FCED21DC9EFB9008161B8 /* BLEDevicesManager.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		E22FCEB71DC9EDD3008161B8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		E22FCEB81DC9EDD3008161B8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		E22FCEBA1DC9EDD3008161B8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				DEFINES_MODULE = NO;
+				DEVELOPMENT_TEAM = D9HVCB63EH;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = BLESensorSDK/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				PRODUCT_BUNDLE_IDENTIFIER = erabbit.BLESensorSDK;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		E22FCEBB1DC9EDD3008161B8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				DEFINES_MODULE = NO;
+				DEVELOPMENT_TEAM = D9HVCB63EH;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = BLESensorSDK/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				PRODUCT_BUNDLE_IDENTIFIER = erabbit.BLESensorSDK;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		E22FCEAB1DC9EDD3008161B8 /* Build configuration list for PBXProject "BLESensorSDK" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E22FCEB71DC9EDD3008161B8 /* Debug */,
+				E22FCEB81DC9EDD3008161B8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E22FCEB91DC9EDD3008161B8 /* Build configuration list for PBXNativeTarget "BLESensorSDK" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E22FCEBA1DC9EDD3008161B8 /* Debug */,
+				E22FCEBB1DC9EDD3008161B8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = E22FCEA81DC9EDD3008161B8 /* Project object */;
+}

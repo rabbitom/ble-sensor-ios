@@ -1,0 +1,54 @@
+
+/* Class = "UIBarButtonItem"; title = "Back"; ObjectID = "5Sc-p6-Tza"; */
+"5Sc-p6-Tza.title" = "返回";
+
+/* Class = "UINavigationItem"; title = "BLESensor"; ObjectID = "5fi-7W-oQH"; */
+"5fi-7W-oQH.title" = "蓝牙传感器";
+
+/* Class = "UIButton"; normalTitle = "Settings"; ObjectID = "DSV-U7-U1x"; */
+"DSV-U7-U1x.normalTitle" = "设置";
+
+/* Class = "UILabel"; text = "[Device Description]"; ObjectID = "EJZ-ie-TgY"; */
+"EJZ-ie-TgY.text" = "[设备描述]";
+
+/* Class = "UILabel"; text = "[Current Value]"; ObjectID = "Jkq-LD-XMT"; */
+"Jkq-LD-XMT.text" = "[当前值]";
+
+/* Class = "UIBarButtonItem"; title = "Item"; ObjectID = "Ldb-Lg-k2G"; */
+"Ldb-Lg-k2G.title" = "Item";
+
+/* Class = "UILabel"; text = "[DeviceName]"; ObjectID = "NDq-2T-shq"; */
+"NDq-2T-shq.text" = "[设备名称]";
+
+/* Class = "UILabel"; text = "FeatureName"; ObjectID = "PyL-Rq-9rN"; */
+"PyL-Rq-9rN.text" = "特征名";
+
+/* Class = "UITabBarItem"; title = "Data"; ObjectID = "SCx-GK-dd7"; */
+"SCx-GK-dd7.title" = "数据";
+
+/* Class = "UILabel"; text = "[MaxValue]"; ObjectID = "Vdh-Rg-E7j"; */
+"Vdh-Rg-E7j.text" = "[最大值]";
+
+/* Class = "UILabel"; text = "[Property]"; ObjectID = "WlF-ca-PoZ"; */
+"WlF-ca-PoZ.text" = "[Property]";
+
+/* Class = "UILabel"; text = "FeatureValue"; ObjectID = "WsO-G8-Yai"; */
+"WsO-G8-Yai.text" = "特征值";
+
+/* Class = "UINavigationItem"; title = "Sensor Features"; ObjectID = "luX-FR-W4W"; */
+"luX-FR-W4W.title" = "传感器特征";
+
+/* Class = "UIBarButtonItem"; title = "Scan"; ObjectID = "mO4-hs-QRF"; */
+"mO4-hs-QRF.title" = "搜索";
+
+/* Class = "UITableViewController"; title = "DeviceList"; ObjectID = "rW9-ft-yQ4"; */
+"rW9-ft-yQ4.title" = "设备列表";
+
+/* Class = "UILabel"; text = "[RSSI]"; ObjectID = "seq-kB-jxw"; */
+"seq-kB-jxw.text" = "[信号强度]";
+
+/* Class = "UILabel"; text = "[MinValue]"; ObjectID = "xbr-pj-cw0"; */
+"xbr-pj-cw0.text" = "[最小值]";
+
+/* Class = "UIViewController"; title = "Device Data"; ObjectID = "zOq-ZY-wAW"; */
+"zOq-ZY-wAW.title" = "设备数据";

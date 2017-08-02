@@ -1,0 +1,24 @@
+/* 
+  InfoPlist.strings
+  BLESensorApp
+
+  Created by 张虎 on 2016/12/24.
+  Copyright © 2016年 CoolTools. All rights reserved.
+*/
+
+CFBundleDisplayName = "蓝牙传感器";
+"BLESensor" = "蓝牙传感器";
+"Scan" = "搜索";
+"Scanning for devices..." = "搜索设备中";
+"Cancel" = "取消";
+"RSSI" = "信号强度";
+"Connect" = "连接";
+"Disconnect" = "断开";
+"ACCELEROMETER" = "加速度";
+"GYROSCOPE" = "陀螺仪";
+"MAGNETOMETER" = "磁强计";
+"BAROMETER" = "大气压";
+"HUMIDITY" = "湿度";
+"TEMPERATURE" = "温度";
+"SFL" = "3D图";
+"" = "";
