@@ -9,7 +9,6 @@
 #import "DeviceFeaturesViewController.h"
 #import <BLESensorSDK/BLESensorSDK.h>
 #import "DeviceDataViewController.h"
-#import "Device3DViewController.h"
 
 @interface DeviceFeaturesViewController ()<UITableViewDelegate,UITableViewDataSource>
 {

@@ -48,14 +48,12 @@
 		E22EFD0C1D717BCF00C7EC91 /* DeviceDataViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E22EFD0B1D717BCF00C7EC91 /* DeviceDataViewController.m */; };
 		E247DCED1DCAF16A00F3808F /* BLESensorSDK.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E247DCEC1DCAF16A00F3808F /* BLESensorSDK.framework */; };
 		E247DCF01DCB1C5C00F3808F /* DeviceFeaturesViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E247DCEF1DCB1C5C00F3808F /* DeviceFeaturesViewController.m */; };
-		E27C69731F32069700E25A42 /* NinevehGL.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E27C69721F32069700E25A42 /* NinevehGL.framework */; };
 		E282BC4C1D74F016000DC84A /* ChartView.m in Sources */ = {isa = PBXBuildFile; fileRef = E282BC4B1D74F016000DC84A /* ChartView.m */; };
 		E29332381DD76BA500F9550B /* Keychain.mtl in Resources */ = {isa = PBXBuildFile; fileRef = E29332361DD76BA500F9550B /* Keychain.mtl */; };
 		E29332391DD76BA500F9550B /* Keychain.obj in Resources */ = {isa = PBXBuildFile; fileRef = E29332371DD76BA500F9550B /* Keychain.obj */; };
 		E293323C1DD7739D00F9550B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E293323A1DD7739D00F9550B /* LaunchScreen.storyboard */; };
 		E2975F441DAAD82C00361521 /* OpenGLES.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E2975F431DAAD82C00361521 /* OpenGLES.framework */; };
 		E2975F461DAAD83100361521 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E2975F451DAAD83100361521 /* QuartzCore.framework */; };
-		E2975F4B1DAAE2BC00361521 /* Device3DViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E2975F4A1DAAE2BC00361521 /* Device3DViewController.m */; };
 		E29B3E601D6B0747002B500A /* DeviceListViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E29B3E5F1D6B0747002B500A /* DeviceListViewController.m */; };
 		E2CA7EB41D62FF5E00CA3156 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = E2CA7EB31D62FF5E00CA3156 /* main.m */; };
 		E2CA7EB71D62FF5E00CA3156 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = E2CA7EB61D62FF5E00CA3156 /* AppDelegate.m */; };
@@ -161,7 +159,6 @@
 		E247DCEE1DCB1C5C00F3808F /* DeviceFeaturesViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DeviceFeaturesViewController.h; sourceTree = "<group>"; };
 		E247DCEF1DCB1C5C00F3808F /* DeviceFeaturesViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DeviceFeaturesViewController.m; sourceTree = "<group>"; };
 		E247DCF11DCB5F1700F3808F /* DeviceDetailController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DeviceDetailController.h; sourceTree = "<group>"; };
-		E27C69721F32069700E25A42 /* NinevehGL.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = NinevehGL.framework; sourceTree = "<group>"; };
 		E282BC4A1D74F016000DC84A /* ChartView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ChartView.h; sourceTree = "<group>"; };
 		E282BC4B1D74F016000DC84A /* ChartView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ChartView.m; sourceTree = "<group>"; };
 		E29332361DD76BA500F9550B /* Keychain.mtl */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Keychain.mtl; sourceTree = "<group>"; };
@@ -169,8 +166,6 @@
 		E293323B1DD7739D00F9550B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		E2975F431DAAD82C00361521 /* OpenGLES.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = OpenGLES.framework; path = System/Library/Frameworks/OpenGLES.framework; sourceTree = SDKROOT; };
 		E2975F451DAAD83100361521 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
-		E2975F491DAAE2BC00361521 /* Device3DViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Device3DViewController.h; sourceTree = "<group>"; };
-		E2975F4A1DAAE2BC00361521 /* Device3DViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Device3DViewController.m; sourceTree = "<group>"; };
 		E29B3E5D1D6AE194002B500A /* PrefixHeader.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PrefixHeader.pch; sourceTree = "<group>"; };
 		E29B3E5E1D6B0747002B500A /* DeviceListViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DeviceListViewController.h; sourceTree = "<group>"; };
 		E29B3E5F1D6B0747002B500A /* DeviceListViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DeviceListViewController.m; sourceTree = "<group>"; };
@@ -189,7 +184,6 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				E27C69731F32069700E25A42 /* NinevehGL.framework in Frameworks */,
 				148586631EFA7A7100F039FB /* CoreData.framework in Frameworks */,
 				E247DCED1DCAF16A00F3808F /* BLESensorSDK.framework in Frameworks */,
 				E2975F461DAAD83100361521 /* QuartzCore.framework in Frameworks */,
@@ -333,8 +327,6 @@
 				E247DCEF1DCB1C5C00F3808F /* DeviceFeaturesViewController.m */,
 				E22EFD0A1D717BCF00C7EC91 /* DeviceDataViewController.h */,
 				E22EFD0B1D717BCF00C7EC91 /* DeviceDataViewController.m */,
-				E2975F491DAAE2BC00361521 /* Device3DViewController.h */,
-				E2975F4A1DAAE2BC00361521 /* Device3DViewController.m */,
 				E224625E1E94D11E0090C48D /* DeviceGLViewController.h */,
 				E224625F1E94D11E0090C48D /* DeviceGLViewController.m */,
 			);
@@ -353,7 +345,6 @@
 		E2975F421DAAD82C00361521 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				E27C69721F32069700E25A42 /* NinevehGL.framework */,
 				148586621EFA7A7100F039FB /* CoreData.framework */,
 				E247DCEC1DCAF16A00F3808F /* BLESensorSDK.framework */,
 				E2975F451DAAD83100361521 /* QuartzCore.framework */,
@@ -527,7 +518,6 @@
 				141A924C1F00FB2500E7DE3F /* SVProgressHUD.m in Sources */,
 				148586661EFA7D4300F039FB /* CoreData.m in Sources */,
 				148586251EFA4E1B00F039FB /* HistoryDataViewController.m in Sources */,
-				E2975F4B1DAAE2BC00361521 /* Device3DViewController.m in Sources */,
 				141A924F1F00FB2500E7DE3F /* XAxisView.m in Sources */,
 				E224625C1E94D0CE0090C48D /* GLModel.m in Sources */,
 				14264F491EFCC3C7005098AF /* UIColor+Hex.m in Sources */,

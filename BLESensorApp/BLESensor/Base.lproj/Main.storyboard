@@ -148,7 +148,6 @@
                     <connections>
                         <outlet property="connectBtn" destination="Ldb-Lg-k2G" id="UpM-2w-f9X"/>
                         <segue destination="zOq-ZY-wAW" kind="show" identifier="ShowDataView" id="6zw-Gm-9s7"/>
-                        <segue destination="04w-AX-Mb2" kind="show" identifier="Show3DView" id="fB1-ze-YSS"/>
                         <segue destination="r6s-bR-aOg" kind="show" identifier="ShowGLView" id="vMa-bV-U1i"/>
                     </connections>
                 </tableViewController>
@@ -263,7 +262,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Hd9-hm-dsb" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-1830" y="1375"/>
+            <point key="canvasLocation" x="-1170" y="1375"/>
         </scene>
         <!--图形化-->
         <scene sceneID="DjW-RW-YMh">
@@ -329,39 +328,6 @@
             </objects>
             <point key="canvasLocation" x="566" y="570"/>
         </scene>
-        <!--Devcie 3D-->
-        <scene sceneID="7VR-5B-YP9">
-            <objects>
-                <viewController id="04w-AX-Mb2" userLabel="Devcie 3D" customClass="Device3DViewController" sceneMemberID="viewController">
-                    <layoutGuides>
-                        <viewControllerLayoutGuide type="top" id="sKU-bP-DEn"/>
-                        <viewControllerLayoutGuide type="bottom" id="WW5-qb-vLo"/>
-                    </layoutGuides>
-                    <view key="view" contentMode="scaleToFill" id="ttn-mr-2Lo">
-                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
-                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                        <subviews>
-                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="gxm-uR-tMb" customClass="NGLView">
-                                <rect key="frame" x="0.0" y="64" width="375" height="603"/>
-                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
-                                <connections>
-                                    <outlet property="delegate" destination="04w-AX-Mb2" id="8K1-o5-XFr"/>
-                                </connections>
-                            </view>
-                        </subviews>
-                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
-                        <constraints>
-                            <constraint firstItem="gxm-uR-tMb" firstAttribute="top" secondItem="sKU-bP-DEn" secondAttribute="bottom" id="b2f-yW-tnw"/>
-                            <constraint firstItem="gxm-uR-tMb" firstAttribute="leading" secondItem="ttn-mr-2Lo" secondAttribute="leading" id="nDB-d9-tf9"/>
-                            <constraint firstAttribute="trailing" secondItem="gxm-uR-tMb" secondAttribute="trailing" id="yBQ-Ty-s5I"/>
-                            <constraint firstAttribute="bottom" secondItem="gxm-uR-tMb" secondAttribute="bottom" id="yMT-cj-6Je"/>
-                        </constraints>
-                    </view>
-                </viewController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="c9Y-bP-6Mo" userLabel="First Responder" sceneMemberID="firstResponder"/>
-            </objects>
-            <point key="canvasLocation" x="-284" y="1375"/>
-        </scene>
         <!--DeviceGL View Controller-->
         <scene sceneID="haB-B3-WtS">
             <objects>
@@ -393,7 +359,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dOR-QI-cN2" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-1060" y="1375"/>
+            <point key="canvasLocation" x="-284" y="1375"/>
         </scene>
         <!--Navigation Controller-->
         <scene sceneID="s1l-tS-A4r">
