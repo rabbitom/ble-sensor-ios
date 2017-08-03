@@ -74,7 +74,7 @@
                 }else{
                     SomeType *someType1 = (SomeType *)array[j - 1];
                     if (i == 0) {
-                       label.text = [NSString stringWithFormat:@"%@",someType1.iD];
+                       label.text = [NSString stringWithFormat:@"%@",someType1.time];
                     }else{
                         NSString *values = someType1.value;
                         NSArray *arr = [values componentsSeparatedByString:@"*"];

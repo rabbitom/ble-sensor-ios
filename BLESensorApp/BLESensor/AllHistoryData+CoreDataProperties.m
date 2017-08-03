@@ -1,9 +1,9 @@
 //
 //  AllHistoryData+CoreDataProperties.m
-//  
+//  BLESensorApp
 //
-//  Created by 张虎 on 2017/7/17.
-//
+//  Created by 张虎 on 2017/8/3.
+//  Copyright © 2017年 CoolTools. All rights reserved.
 //
 
 #import "AllHistoryData+CoreDataProperties.h"
@@ -14,12 +14,12 @@
 	return [[NSFetchRequest alloc] initWithEntityName:@"AllHistoryData"];
 }
 
+@dynamic deviceUUID;
 @dynamic duration;
 @dynamic iD;
-@dynamic startTime;
+@dynamic time;
 @dynamic title;
 @dynamic type;
-@dynamic deviceUUID;
 @dynamic history_data;
 
 @end

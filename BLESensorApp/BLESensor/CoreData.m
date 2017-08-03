@@ -27,7 +27,7 @@
     _allHistoryData = [NSEntityDescription insertNewObjectForEntityForName:@"AllHistoryData" inManagedObjectContext:_myApp.persistentContainer.viewContext];
     if (historyDict.count > 0) {
         _allHistoryData.iD = [NSString stringWithFormat:@"%@",historyDict[@"id"]];
-        _allHistoryData.startTime = historyDict[@"stratTime"];
+        _allHistoryData.time = historyDict[@"time"];
         _allHistoryData.duration = [NSString stringWithFormat:@"%@",historyDict[@"duration"]];
         _allHistoryData.type = [NSString stringWithFormat:@"%@",historyDict[@"type"]];
         _allHistoryData.title = [NSString stringWithFormat:@"%@",historyDict[@"title"]];
@@ -58,7 +58,7 @@
     NSMutableArray *dataArray = [NSMutableArray array];
     NSMutableArray *dataArray1 = [NSMutableArray array];
     NSFetchRequest *request = [[NSFetchRequest alloc] initWithEntityName:typeStr];
-    NSSortDescriptor *sort = [[NSSortDescriptor alloc] initWithKey:@"iD" ascending:NO];
+    NSSortDescriptor *sort = [[NSSortDescriptor alloc] initWithKey:@"time" ascending:NO];
     request.sortDescriptors = @[sort];
     NSError *error = nil;
     NSArray *result = [_myApp.persistentContainer.viewContext executeFetchRequest:request error:&error];

@@ -20,12 +20,12 @@
 		141A92531F0102CB00E7DE3F /* HistoryPathView.m in Sources */ = {isa = PBXBuildFile; fileRef = 141A92521F0102CB00E7DE3F /* HistoryPathView.m */; };
 		141A92561F0102DE00E7DE3F /* HistoryChartView.m in Sources */ = {isa = PBXBuildFile; fileRef = 141A92551F0102DE00E7DE3F /* HistoryChartView.m */; };
 		14264F491EFCC3C7005098AF /* UIColor+Hex.m in Sources */ = {isa = PBXBuildFile; fileRef = 14264F481EFCC3C7005098AF /* UIColor+Hex.m */; };
+		144222161F332E3000FCB176 /* SomeType+CoreDataClass.m in Sources */ = {isa = PBXBuildFile; fileRef = 1442220F1F332E3000FCB176 /* SomeType+CoreDataClass.m */; };
+		144222171F332E3000FCB176 /* SomeType+CoreDataProperties.m in Sources */ = {isa = PBXBuildFile; fileRef = 144222111F332E3000FCB176 /* SomeType+CoreDataProperties.m */; };
+		144222181F332E3000FCB176 /* AllHistoryData+CoreDataClass.m in Sources */ = {isa = PBXBuildFile; fileRef = 144222131F332E3000FCB176 /* AllHistoryData+CoreDataClass.m */; };
+		144222191F332E3000FCB176 /* AllHistoryData+CoreDataProperties.m in Sources */ = {isa = PBXBuildFile; fileRef = 144222151F332E3000FCB176 /* AllHistoryData+CoreDataProperties.m */; };
 		146705761EFBB0D400BAB426 /* TableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 146705741EFBB0D400BAB426 /* TableViewCell.m */; };
 		146705771EFBB0D400BAB426 /* TableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 146705751EFBB0D400BAB426 /* TableViewCell.xib */; };
-		147B76ED1F1C916B00791DFF /* AllHistoryData+CoreDataClass.m in Sources */ = {isa = PBXBuildFile; fileRef = 147B76E61F1C916B00791DFF /* AllHistoryData+CoreDataClass.m */; };
-		147B76EE1F1C916B00791DFF /* AllHistoryData+CoreDataProperties.m in Sources */ = {isa = PBXBuildFile; fileRef = 147B76E81F1C916B00791DFF /* AllHistoryData+CoreDataProperties.m */; };
-		147B76EF1F1C916B00791DFF /* SomeType+CoreDataClass.m in Sources */ = {isa = PBXBuildFile; fileRef = 147B76EA1F1C916B00791DFF /* SomeType+CoreDataClass.m */; };
-		147B76F01F1C916B00791DFF /* SomeType+CoreDataProperties.m in Sources */ = {isa = PBXBuildFile; fileRef = 147B76EC1F1C916B00791DFF /* SomeType+CoreDataProperties.m */; };
 		148586251EFA4E1B00F039FB /* HistoryDataViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 148586221EFA4E1B00F039FB /* HistoryDataViewController.m */; };
 		148586291EFA556F00F039FB /* DeviceDetailsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 148586281EFA556F00F039FB /* DeviceDetailsViewController.m */; };
 		148586541EFA772000F039FB /* BLESensorCoreData.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 148586521EFA772000F039FB /* BLESensorCoreData.xcdatamodeld */; };
@@ -111,17 +111,22 @@
 		141A92551F0102DE00E7DE3F /* HistoryChartView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HistoryChartView.m; sourceTree = "<group>"; };
 		14264F471EFCC3C7005098AF /* UIColor+Hex.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIColor+Hex.h"; sourceTree = "<group>"; };
 		14264F481EFCC3C7005098AF /* UIColor+Hex.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIColor+Hex.m"; sourceTree = "<group>"; };
+		144221EC1F33081700FCB176 /* libicucore.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libicucore.tbd; path = usr/lib/libicucore.tbd; sourceTree = SDKROOT; };
+		144221EE1F33083800FCB176 /* libz.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libz.tbd; path = usr/lib/libz.tbd; sourceTree = SDKROOT; };
+		144221F01F33084800FCB176 /* libstdc++.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = "libstdc++.tbd"; path = "usr/lib/libstdc++.tbd"; sourceTree = SDKROOT; };
+		144221F21F33085500FCB176 /* JavaScriptCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = JavaScriptCore.framework; path = System/Library/Frameworks/JavaScriptCore.framework; sourceTree = SDKROOT; };
+		144221F41F33086D00FCB176 /* libsqlite3.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libsqlite3.tbd; path = usr/lib/libsqlite3.tbd; sourceTree = SDKROOT; };
+		1442220E1F332E3000FCB176 /* SomeType+CoreDataClass.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "SomeType+CoreDataClass.h"; sourceTree = "<group>"; };
+		1442220F1F332E3000FCB176 /* SomeType+CoreDataClass.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "SomeType+CoreDataClass.m"; sourceTree = "<group>"; };
+		144222101F332E3000FCB176 /* SomeType+CoreDataProperties.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "SomeType+CoreDataProperties.h"; sourceTree = "<group>"; };
+		144222111F332E3000FCB176 /* SomeType+CoreDataProperties.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "SomeType+CoreDataProperties.m"; sourceTree = "<group>"; };
+		144222121F332E3000FCB176 /* AllHistoryData+CoreDataClass.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "AllHistoryData+CoreDataClass.h"; sourceTree = "<group>"; };
+		144222131F332E3000FCB176 /* AllHistoryData+CoreDataClass.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "AllHistoryData+CoreDataClass.m"; sourceTree = "<group>"; };
+		144222141F332E3000FCB176 /* AllHistoryData+CoreDataProperties.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "AllHistoryData+CoreDataProperties.h"; sourceTree = "<group>"; };
+		144222151F332E3000FCB176 /* AllHistoryData+CoreDataProperties.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "AllHistoryData+CoreDataProperties.m"; sourceTree = "<group>"; };
 		146705731EFBB0D400BAB426 /* TableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TableViewCell.h; sourceTree = "<group>"; };
 		146705741EFBB0D400BAB426 /* TableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TableViewCell.m; sourceTree = "<group>"; };
 		146705751EFBB0D400BAB426 /* TableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = TableViewCell.xib; sourceTree = "<group>"; };
-		147B76E51F1C916B00791DFF /* AllHistoryData+CoreDataClass.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "AllHistoryData+CoreDataClass.h"; sourceTree = "<group>"; };
-		147B76E61F1C916B00791DFF /* AllHistoryData+CoreDataClass.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "AllHistoryData+CoreDataClass.m"; sourceTree = "<group>"; };
-		147B76E71F1C916B00791DFF /* AllHistoryData+CoreDataProperties.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "AllHistoryData+CoreDataProperties.h"; sourceTree = "<group>"; };
-		147B76E81F1C916B00791DFF /* AllHistoryData+CoreDataProperties.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "AllHistoryData+CoreDataProperties.m"; sourceTree = "<group>"; };
-		147B76E91F1C916B00791DFF /* SomeType+CoreDataClass.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "SomeType+CoreDataClass.h"; sourceTree = "<group>"; };
-		147B76EA1F1C916B00791DFF /* SomeType+CoreDataClass.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "SomeType+CoreDataClass.m"; sourceTree = "<group>"; };
-		147B76EB1F1C916B00791DFF /* SomeType+CoreDataProperties.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "SomeType+CoreDataProperties.h"; sourceTree = "<group>"; };
-		147B76EC1F1C916B00791DFF /* SomeType+CoreDataProperties.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "SomeType+CoreDataProperties.m"; sourceTree = "<group>"; };
 		148586211EFA4E1B00F039FB /* HistoryDataViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HistoryDataViewController.h; sourceTree = "<group>"; };
 		148586221EFA4E1B00F039FB /* HistoryDataViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HistoryDataViewController.m; sourceTree = "<group>"; };
 		148586271EFA556F00F039FB /* DeviceDetailsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DeviceDetailsViewController.h; sourceTree = "<group>"; };
@@ -232,14 +237,14 @@
 		148586551EFA780C00F039FB /* CoreData */ = {
 			isa = PBXGroup;
 			children = (
-				147B76E51F1C916B00791DFF /* AllHistoryData+CoreDataClass.h */,
-				147B76E61F1C916B00791DFF /* AllHistoryData+CoreDataClass.m */,
-				147B76E71F1C916B00791DFF /* AllHistoryData+CoreDataProperties.h */,
-				147B76E81F1C916B00791DFF /* AllHistoryData+CoreDataProperties.m */,
-				147B76E91F1C916B00791DFF /* SomeType+CoreDataClass.h */,
-				147B76EA1F1C916B00791DFF /* SomeType+CoreDataClass.m */,
-				147B76EB1F1C916B00791DFF /* SomeType+CoreDataProperties.h */,
-				147B76EC1F1C916B00791DFF /* SomeType+CoreDataProperties.m */,
+				1442220E1F332E3000FCB176 /* SomeType+CoreDataClass.h */,
+				1442220F1F332E3000FCB176 /* SomeType+CoreDataClass.m */,
+				144222101F332E3000FCB176 /* SomeType+CoreDataProperties.h */,
+				144222111F332E3000FCB176 /* SomeType+CoreDataProperties.m */,
+				144222121F332E3000FCB176 /* AllHistoryData+CoreDataClass.h */,
+				144222131F332E3000FCB176 /* AllHistoryData+CoreDataClass.m */,
+				144222141F332E3000FCB176 /* AllHistoryData+CoreDataProperties.h */,
+				144222151F332E3000FCB176 /* AllHistoryData+CoreDataProperties.m */,
 				148586641EFA7D4300F039FB /* CoreData.h */,
 				148586651EFA7D4300F039FB /* CoreData.m */,
 				14264F471EFCC3C7005098AF /* UIColor+Hex.h */,
@@ -345,6 +350,11 @@
 		E2975F421DAAD82C00361521 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				144221F41F33086D00FCB176 /* libsqlite3.tbd */,
+				144221F21F33085500FCB176 /* JavaScriptCore.framework */,
+				144221F01F33084800FCB176 /* libstdc++.tbd */,
+				144221EE1F33083800FCB176 /* libz.tbd */,
+				144221EC1F33081700FCB176 /* libicucore.tbd */,
 				148586621EFA7A7100F039FB /* CoreData.framework */,
 				E247DCEC1DCAF16A00F3808F /* BLESensorSDK.framework */,
 				E2975F451DAAD83100361521 /* QuartzCore.framework */,
@@ -506,8 +516,8 @@
 			files = (
 				E22462561E94D0CE0090C48D /* GLUtils.m in Sources */,
 				141A92501F00FB2500E7DE3F /* YAxisView.m in Sources */,
-				147B76EE1F1C916B00791DFF /* AllHistoryData+CoreDataProperties.m in Sources */,
-				147B76ED1F1C916B00791DFF /* AllHistoryData+CoreDataClass.m in Sources */,
+				144222191F332E3000FCB176 /* AllHistoryData+CoreDataProperties.m in Sources */,
+				144222181F332E3000FCB176 /* AllHistoryData+CoreDataClass.m in Sources */,
 				E224625B1E94D0CE0090C48D /* GLLight.m in Sources */,
 				E282BC4C1D74F016000DC84A /* ChartView.m in Sources */,
 				E22462581E94D0CE0090C48D /* GLImage.m in Sources */,
@@ -515,6 +525,7 @@
 				141A924D1F00FB2500E7DE3F /* TBActivityView.m in Sources */,
 				E22462571E94D0CE0090C48D /* GLView.m in Sources */,
 				E22462601E94D11E0090C48D /* DeviceGLViewController.m in Sources */,
+				144222161F332E3000FCB176 /* SomeType+CoreDataClass.m in Sources */,
 				141A924C1F00FB2500E7DE3F /* SVProgressHUD.m in Sources */,
 				148586661EFA7D4300F039FB /* CoreData.m in Sources */,
 				148586251EFA4E1B00F039FB /* HistoryDataViewController.m in Sources */,
@@ -524,9 +535,8 @@
 				E224625A1E94D0CE0090C48D /* GLImageView.m in Sources */,
 				E22462591E94D0CE0090C48D /* GLImageMap.m in Sources */,
 				141A924E1F00FB2500E7DE3F /* WSLineChartView.m in Sources */,
-				147B76F01F1C916B00791DFF /* SomeType+CoreDataProperties.m in Sources */,
 				E29B3E601D6B0747002B500A /* DeviceListViewController.m in Sources */,
-				147B76EF1F1C916B00791DFF /* SomeType+CoreDataClass.m in Sources */,
+				144222171F332E3000FCB176 /* SomeType+CoreDataProperties.m in Sources */,
 				E2CA7EB71D62FF5E00CA3156 /* AppDelegate.m in Sources */,
 				146705761EFBB0D400BAB426 /* TableViewCell.m in Sources */,
 				148586291EFA556F00F039FB /* DeviceDetailsViewController.m in Sources */,
@@ -673,12 +683,32 @@
 					"$(inherited)",
 					"$(PROJECT_DIR)",
 					"$(PROJECT_DIR)/BLESensor",
+					"$(PROJECT_DIR)/BLESensor/SDK/Required",
+					"$(PROJECT_DIR)/BLESensor/SDK/ShareSDK",
+					"$(PROJECT_DIR)/BLESensor/SDK/ShareSDK/Support/Optional",
+					"$(PROJECT_DIR)/BLESensor/SDK/ShareSDK/Support/PlatformConnector",
+					"$(PROJECT_DIR)/BLESensor/SDK/ShareSDK/Support/PlatformSDK/DingTalkSDK",
+					"$(PROJECT_DIR)/BLESensor/SDK/ShareSDK/Support/PlatformSDK/FacebookMessengerSDK",
+					"$(PROJECT_DIR)/BLESensor/SDK/ShareSDK/Support/PlatformSDK/KaKaoSDK",
+					"$(PROJECT_DIR)/BLESensor/SDK/ShareSDK/Support/PlatformSDK/LineSDK",
+					"$(PROJECT_DIR)/BLESensor/SDK/ShareSDK/Support/PlatformSDK/MPShareSDK",
+					"$(PROJECT_DIR)/BLESensor/SDK/ShareSDK/Support/PlatformSDK/QQSDK",
+					"$(PROJECT_DIR)/BLESensor/SDK/ShareSDK/Support/PlatformSDK/RenRenSDK",
+					"$(PROJECT_DIR)/BLESensor/SDK/ShareSDK/Support/Required",
 				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "$(SRCROOT)/BLESensor/PrefixHeader.pch";
 				INFOPLIST_FILE = BLESensor/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/BLESensor/SDK/ShareSDK/Support/PlatformSDK/APSocialSDK",
+					"$(PROJECT_DIR)/BLESensor/SDK/ShareSDK/Support/PlatformSDK/SinaWeiboSDK",
+					"$(PROJECT_DIR)/BLESensor/SDK/ShareSDK/Support/PlatformSDK/WeChatSDK",
+					"$(PROJECT_DIR)/BLESensor/SDK/ShareSDK/Support/PlatformSDK/YiXinSDK",
+				);
+				OTHER_LDFLAGS = "-ObjC";
 				PRODUCT_BUNDLE_IDENTIFIER = erabbit.BLESensor;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE = "a9f403ff-10b2-4c7f-86d7-af898c5e2e73";
@@ -698,12 +728,32 @@
 					"$(inherited)",
 					"$(PROJECT_DIR)",
 					"$(PROJECT_DIR)/BLESensor",
+					"$(PROJECT_DIR)/BLESensor/SDK/Required",
+					"$(PROJECT_DIR)/BLESensor/SDK/ShareSDK",
+					"$(PROJECT_DIR)/BLESensor/SDK/ShareSDK/Support/Optional",
+					"$(PROJECT_DIR)/BLESensor/SDK/ShareSDK/Support/PlatformConnector",
+					"$(PROJECT_DIR)/BLESensor/SDK/ShareSDK/Support/PlatformSDK/DingTalkSDK",
+					"$(PROJECT_DIR)/BLESensor/SDK/ShareSDK/Support/PlatformSDK/FacebookMessengerSDK",
+					"$(PROJECT_DIR)/BLESensor/SDK/ShareSDK/Support/PlatformSDK/KaKaoSDK",
+					"$(PROJECT_DIR)/BLESensor/SDK/ShareSDK/Support/PlatformSDK/LineSDK",
+					"$(PROJECT_DIR)/BLESensor/SDK/ShareSDK/Support/PlatformSDK/MPShareSDK",
+					"$(PROJECT_DIR)/BLESensor/SDK/ShareSDK/Support/PlatformSDK/QQSDK",
+					"$(PROJECT_DIR)/BLESensor/SDK/ShareSDK/Support/PlatformSDK/RenRenSDK",
+					"$(PROJECT_DIR)/BLESensor/SDK/ShareSDK/Support/Required",
 				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "$(SRCROOT)/BLESensor/PrefixHeader.pch";
 				INFOPLIST_FILE = BLESensor/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/BLESensor/SDK/ShareSDK/Support/PlatformSDK/APSocialSDK",
+					"$(PROJECT_DIR)/BLESensor/SDK/ShareSDK/Support/PlatformSDK/SinaWeiboSDK",
+					"$(PROJECT_DIR)/BLESensor/SDK/ShareSDK/Support/PlatformSDK/WeChatSDK",
+					"$(PROJECT_DIR)/BLESensor/SDK/ShareSDK/Support/PlatformSDK/YiXinSDK",
+				);
+				OTHER_LDFLAGS = "-ObjC";
 				PRODUCT_BUNDLE_IDENTIFIER = erabbit.BLESensor;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE = "84a81a7a-7123-434b-aeb9-b583792bc0de";

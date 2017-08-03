@@ -4,19 +4,19 @@
         <attribute name="deviceUUID" optional="YES" attributeType="String" syncable="YES"/>
         <attribute name="duration" optional="YES" attributeType="String" syncable="YES"/>
         <attribute name="iD" optional="YES" attributeType="String" syncable="YES"/>
-        <attribute name="startTime" optional="YES" attributeType="Date" usesScalarValueType="NO" syncable="YES"/>
+        <attribute name="time" optional="YES" attributeType="String" syncable="YES"/>
         <attribute name="title" optional="YES" attributeType="String" syncable="YES"/>
         <attribute name="type" optional="YES" attributeType="String" syncable="YES"/>
         <relationship name="history_data" optional="YES" toMany="YES" deletionRule="Nullify" destinationEntity="SomeType" inverseName="some_type" inverseEntity="SomeType" syncable="YES"/>
     </entity>
     <entity name="SomeType" representedClassName="SomeType" isAbstract="YES" syncable="YES">
         <attribute name="iD" optional="YES" attributeType="String" syncable="YES"/>
-        <attribute name="time" optional="YES" attributeType="Date" usesScalarValueType="NO" syncable="YES"/>
+        <attribute name="time" optional="YES" attributeType="String" syncable="YES"/>
         <attribute name="value" optional="YES" attributeType="String" syncable="YES"/>
         <relationship name="some_type" optional="YES" maxCount="1" deletionRule="Nullify" destinationEntity="AllHistoryData" inverseName="history_data" inverseEntity="AllHistoryData" syncable="YES"/>
     </entity>
     <elements>
         <element name="AllHistoryData" positionX="-270" positionY="-9" width="128" height="150"/>
-        <element name="SomeType" positionX="-18" positionY="27" width="128" height="103"/>
+        <element name="SomeType" positionX="-18" positionY="27" width="128" height="105"/>
     </elements>
 </model>

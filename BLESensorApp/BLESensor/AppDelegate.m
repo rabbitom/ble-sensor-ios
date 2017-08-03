@@ -6,7 +6,9 @@
 //  Copyright © 2016年 CoolTools. All rights reserved.
 //
 
+
 #import "AppDelegate.h"
+
 
 @interface AppDelegate ()
 
@@ -16,8 +18,12 @@
 
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
+
     return YES;
+    
 }
+
+
 
 //#pragma mark - Core Data stack
 //

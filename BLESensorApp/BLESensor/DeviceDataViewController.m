@@ -26,7 +26,7 @@
 @property (weak, nonatomic) IBOutlet UIButton *settings;
 @property (weak, nonatomic) IBOutlet ChartView *chartView;
 @property (nonatomic,strong) NSTimer *timer;
-@property (nonatomic,strong) NSDate *startTime;
+@property (nonatomic,strong) NSString *startTime;
 @property (nonatomic,strong) NSMutableArray *dataArray;
 @property (nonatomic,strong) NSDictionary *dataDict;
 @property (nonatomic,strong) NSString *currentDeviceUUID;
@@ -83,7 +83,9 @@
         }else{
             sender.selected = YES;
             //开始记录
-            _startTime = [NSDate date];
+            NSDateFormatter *format = [[NSDateFormatter alloc] init];
+            format.dateFormat = @"yyyy-MM-dd HH:mm:ss";
+            _startTime = [format stringFromDate:[NSDate date]];
             isRecord = YES;
             number++;
             _timer = [NSTimer scheduledTimerWithTimeInterval:1 target:self selector:@selector(stratTimer:) userInfo:nil repeats:YES];
@@ -106,7 +108,7 @@
 {
     [_timer invalidate];
     isRecord = NO;
-    _dataDict = [NSDictionary dictionaryWithObjects:@[_startTime,_startTime,[NSString stringWithFormat:@"%d",number],self.property.text,@"Anonymous",_currentDeviceUUID] forKeys:@[@"id",@"stratTime",@"duration",@"type",@"title",@"deviceUUID"]];
+    _dataDict = [NSDictionary dictionaryWithObjects:@[_startTime,_startTime,[NSString stringWithFormat:@"%d",number],self.property.text,@"Anonymous",_currentDeviceUUID] forKeys:@[@"id",@"time",@"duration",@"type",@"title",@"deviceUUID"]];
     [[CoreData shareCoreData] addCoreData:_dataDict SomeType:_dataArray];
     number = 0;
 }
@@ -173,7 +175,10 @@
                 }
                
             }
-            NSDictionary *dic = [NSDictionary dictionaryWithObjects:@[_startTime,[NSDate date],[NSString stringWithFormat:@"%@*%@*%f*%f",str,self.feature.unit,self.chartView.maxValue,self.chartView.minValue]] forKeys:@[@"id",@"time",@"value"]];
+            NSDateFormatter *format = [[NSDateFormatter alloc] init];
+            format.dateFormat = @"yyyy-MM-dd HH:mm:ss";
+            NSString *dates = [format stringFromDate:[NSDate date]];;
+            NSDictionary *dic = [NSDictionary dictionaryWithObjects:@[_startTime,dates,[NSString stringWithFormat:@"%@*%@*%f*%f",str,self.feature.unit,self.chartView.maxValue,self.chartView.minValue]] forKeys:@[@"id",@"time",@"value"]];
             [_dataArray addObject:dic];
         }
     }
