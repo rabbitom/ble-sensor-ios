@@ -188,13 +188,23 @@
     for (int i = 0; i < _dataArray.count; i++) {
         [xTimeArray addObject:[NSString stringWithFormat:@"%d",i]];
     }
+    NSMutableArray *maxArray = [NSMutableArray array];
+    NSMutableArray *minArray = [NSMutableArray array];
+     for (SomeType *sometype in _dataArray) {
+         NSString *values = sometype.value;
+         NSArray *array1 = [values componentsSeparatedByString:@"*"];
+         [maxArray addObject:[NSString stringWithFormat:@"%@",array1[array1.count - 2]]];
+         [minArray addObject:[NSString stringWithFormat:@"%@",array1[array1.count - 1]]];
+     }
+    yMax = [[maxArray valueForKeyPath:@"@max.floatValue"] floatValue];
+    yMin = [[minArray valueForKeyPath:@"@min.floatValue"] floatValue];
     for (SomeType *sometype in _dataArray) {
         NSString *values = sometype.value;
         NSArray *array1 = [values componentsSeparatedByString:@"*"];
         NSMutableArray *array3 = [NSMutableArray array];
         if (array1.count >= 3) {
-            yMax = [[NSString stringWithFormat:@"%@",array1[array1.count - 2]] floatValue];
-            yMin = [[NSString stringWithFormat:@"%@",array1[array1.count - 1]] floatValue];
+//            yMax = [[NSString stringWithFormat:@"%@",array1[array1.count - 2]] floatValue];
+//            yMin = [[NSString stringWithFormat:@"%@",array1[array1.count - 1]] floatValue];
             unit = [NSString stringWithFormat:@"%@",array1[array1.count - 3]];
             for (int i = 0; i < array1.count - 3; i++) {
                 [array3 addObject:array1[i]];
