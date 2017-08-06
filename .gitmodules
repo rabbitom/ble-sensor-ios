@@ -1,3 +1,3 @@
 [submodule "ble-sensor-sdk-ios"]
 	path = ble-sensor-sdk-ios
-	url = git@github.com:rabbitom/ble-sensor-sdk-ios.git
+	url = https://github.com/rabbitom/ble-sensor-sdk-ios.git
