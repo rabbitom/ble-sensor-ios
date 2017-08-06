@@ -1,3 +1,4 @@
 language: objective-c
+osx_image: xcode8.3
 script:
 - xcodebuild -workspace BLESensorApp.xcworkspace -scheme BLESensorApp -sdk iphonesimulator ONLY_ACTIVE_ARCH=NO
