@@ -10,6 +10,7 @@ env:
   - DEVELOPER_NAME="iPhone Distribution: JIANLIN HAO (D9HVCB63EH)"
   - PROFILE_NAME="BLESensorAdHocDistribution"
 before_install:
+- mkdir profiles
 - openssl aes-256-cbc -K $encrypted_c0b80ceda302_key -iv $encrypted_c0b80ceda302_iv
   -in scripts/BLESensorAdHocDistribution.mobileprovision.enc -out profiles/BLESensorAdHocDistribution.mobileprovision
   -d
