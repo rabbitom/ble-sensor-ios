@@ -1,4 +1,21 @@
 language: objective-c
 osx_image: xcode8.3
+before_script:
+- scripts/add-key.sh
 script:
-- xcodebuild -workspace BLESensorApp.xcworkspace -scheme BLESensorApp -sdk iphonesimulator ONLY_ACTIVE_ARCH=NO
+- scripts/package.sh
+env:
+  global:
+  - APP_NAME="BLESensorApp"
+  - DEVELOPER_NAME="iPhone Distribution: JIANLIN HAO (D9HVCB63EH)"
+  - PROFILE_NAME="BLESensorAdHocDistribution"
+before_install:
+- mkdir profiles
+- openssl aes-256-cbc -K $encrypted_c0b80ceda302_key -iv $encrypted_c0b80ceda302_iv
+  -in scripts/BLESensorAdHocDistribution.mobileprovision.enc -out profiles/BLESensorAdHocDistribution.mobileprovision
+  -d
+- openssl aes-256-cbc -K $encrypted_36ffc68dd205_key -iv $encrypted_36ffc68dd205_iv
+  -in scripts/ios-dist.p12.enc -out profiles/ios-dist.p12 -d
+- gem install fir-cli
+after_success:
+- scripts/upload.sh
