@@ -2,6 +2,7 @@ language: objective-c
 osx_image: xcode8.3
 before_script:
 - openssl aes-256-cbc -k "$ENCRYPTION_SECRET" -in scripts/ios-dev.p12.enc -d -a -out scripts/ios-dev.p12
+- openssl aes-256-cbc -k "$ENCRYPTION_SECRET" -in scripts/BLESensorDevelopment.mobileprovision.enc -d -a -out scripts/BLESensorDevelopment.mobileprovision
 - scripts/add-key.sh
 script:
 - scripts/package.sh
@@ -9,7 +10,8 @@ env:
   global:
   - APP_NAME="BLESensorApp"
   - DEVELOPER_NAME="iPhone Distribution: JIANLIN HAO (D9HVCB63EH)"
-  - PROFILE_NAME="BLESensorAdHocDistribution"
+  - DEV_PROFILE_NAME="BLESensorDevelopment"
+  - DIST_PROFILE_NAME="BLESensorAdHocDistribution"
   - secure: pVFa5ZQca2xMbH7e7uBcXa67fY/2sR6Z3tCtWq7gpWJnnDP0etx/3qMBc8GBxb73jd/YJAp63IY4FOkw+PmWbogA6MeyXxE/hFJ5bCKoANahLrtNLC3R7FkPPh+jEZi6KqSTOdgB8SJzVmOUEUlApDpu82mnuNuo+RjFpHFah5DOXrpLrhRhOu3qaMgRUGaAX+uV1Jq0v1TPSMob4CUAOjbI2MOE+OK/GIFSMDCUuLzdXZ6+hZglieclVgB/+VRlHSfwon469YUPlkUraZHCxLOFUHAqz+u+kRftKMVvnw3DELnBwvEpFTorU1XiMa31VYoqvsxzUfJC+U0aMyRBqsEYD2ebrloNuTElYVAWTwF6vVGbh3EAgK3z+1QjPqbPodET2gJuI4wkXgWVEg7PI5vYVVWyArBZcwj+pE+qm/dJIGxbwHdLs4IUtMeZb1mqcOLiFBANxPc/zi22BDF0pzN/LN9Vwl0bFlGlggRHncmeMmUY1oTtsK3u5GqMcckID5quHpNGdySwhJXp6k8VA+vuFbBov7Q5pZBILt++/wXKTU9taWeP7MV2vjEqL5iP5fFK0ARdDyCMXfrFPXnHgMdBtQYG4/H2m89BKPfCCzqfZ5M4qExR7sHxD2d0yFv9Cme3pn08XLJYFCcN3/Z46VdokkkglVI8pI1uKm7aYDc=
 before_install:
 - openssl aes-256-cbc -K $encrypted_c0b80ceda302_key -iv $encrypted_c0b80ceda302_iv

@@ -7,4 +7,5 @@ security import ./scripts/ios-dev.p12 -k ~/Library/Keychains/ios-build.keychain 
 security import ./scripts/ios-dist.p12 -k ~/Library/Keychains/ios-build.keychain -P $P12_PASSWORD -T /usr/bin/codesign
 security set-key-partition-list -S apple-tool:,apple: -s -k travis ios-build.keychain
 mkdir -p ~/Library/MobileDevice/Provisioning\ Profiles
-cp ./scripts/$PROFILE_NAME.mobileprovision ~/Library/MobileDevice/Provisioning\ Profiles
+cp ./scripts/$DEV_PROFILE_NAME.mobileprovision ~/Library/MobileDevice/Provisioning\ Profiles
+cp ./scripts/$DIST_PROFILE_NAME.mobileprovision ~/Library/MobileDevice/Provisioning\ Profiles
