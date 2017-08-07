@@ -10,14 +10,20 @@
 #import "AppDelegate.h"
 #import "AllHistoryData+CoreDataProperties.h"
 #import "SomeType+CoreDataProperties.m"
+#import <CoreData/CoreData.h>
+#define MCoreDataManager [CoreData shareCoreData]
 
 @interface CoreData : NSObject
 
 @property (nonatomic,strong) AllHistoryData *allHistoryData;
 @property (nonatomic,strong) SomeType *someType;
 @property (nonatomic,strong) AppDelegate *myApp;
+@property(nonatomic,strong,readonly)NSManagedObjectContext *managedObjectContext;
+
 
 +(instancetype)shareCoreData;
+
+-(void)saveContext;
 
 //增加某项服务数据
 -(void)addCoreData:(NSDictionary *)historyDict SomeType:(NSMutableArray *)someTypeArray;
@@ -30,4 +36,6 @@
 
 //修改某项数据名字
 -(void)changeCoreData:(id)AllHistory name:(NSString *)name;
+
+- (NSPersistentContainer *)getCurrentPersistentContainer;
 @end
