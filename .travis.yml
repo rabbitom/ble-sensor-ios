@@ -4,7 +4,7 @@ before_script:
 - scripts/add-key.sh
 script:
 - mkdir bin
-- xcodebuild archive $target -scheme $scheme -archivePath bin/app.xcarchive -destination generic/platform=iOS ONLY_ARCHIVE_ARCH=NO 
+- xcodebuild archive -workspace BLESensorApp.xcworkspace -scheme BLESensorApp -archivePath bin/app.xcarchive -destination generic/platform=iOS ONLY_ARCHIVE_ARCH=NO 
 - xcodebuild -exportArchive -archivePath bin/app.xcarchive -exportPath bin/ -exportOptionsPlist scripts/export.plist
 env:
   global:
