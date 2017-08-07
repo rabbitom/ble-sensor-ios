@@ -11,12 +11,12 @@ env:
   - PROFILE_NAME="BLESensorAdHocDistribution"
 before_install:
 - openssl aes-256-cbc -K $encrypted_c0b80ceda302_key -iv $encrypted_c0b80ceda302_iv
+  -in scripts/BLESensorAdHocDistribution.mobileprovision.enc -out scripts/BLESensorAdHocDistribution.mobileprovision
+  -d
+- openssl aes-256-cbc -K $encrypted_c0b80ceda302_key -iv $encrypted_c0b80ceda302_iv
   -in scripts/ios-dev.p12.enc -out scripts/ios-dev.p12 -d
 - openssl aes-256-cbc -K $encrypted_36ffc68dd205_key -iv $encrypted_36ffc68dd205_iv
   -in scripts/ios-dist.p12.enc -out scripts/ios-dist.p12 -d
-- openssl aes-256-cbc -K $encrypted_c0b80ceda302_key -iv $encrypted_c0b80ceda302_iv
-  -in scripts/BLESensorAdHocDistribution.mobileprovision.enc -out scripts/BLESensorAdHocDistribution.mobileprovision
-  -d
 - gem install fir-cli
 after_deploy:
 - fir p bin/*.ipa -T $FIR_TOKEN -c "`git cat-file tag $TRAVIS_TAG`"
