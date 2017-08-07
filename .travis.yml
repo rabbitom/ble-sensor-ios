@@ -21,4 +21,4 @@ before_install:
   -in scripts/ios-dist.p12.enc -out profiles/ios-dist.p12 -d
 - gem install fir-cli
 after_success:
-- fir p bin/*.ipa -T $FIR_TOKEN -c "`git cat-file tag $TRAVIS_TAG`"
+- scripts/upload.sh
